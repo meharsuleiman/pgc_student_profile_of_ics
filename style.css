@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* font-family: "Roboto", sans-serif; */
+	font-family: "Ubuntu", sans-serif;
+	min-height: 100vh;
+	margin: 0;
+	overflow-x: hidden;
+}
+.box {
+	background-color: seagreen;
+	height: 50vh;
+	width: 50vw;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+	transform: translateX(400%);
+	transition: transform 0.5s ease-in-out;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.box:nth-of-type(even) {
+	transform: translateX(-400%);
+}
+
+.box h2 {
+	color: rgb(24, 20, 20);
+	font-weight: bolder;
+
+	font-size: 3em;
+}
+
+.box.show {
+	transform: translateX(0);
+}
+
+.one {
+	background-image: url("https://scontent.fisb16-1.fna.fbcdn.net/v/t39.30808-6/271591316_3113841932227429_2769503418200539122_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=174925&_nc_ohc=Pxz7aGizbIkAX_G-F8S&_nc_ht=scontent.fisb16-1.fna&oh=00_AT9rjMsNYuE0waHgtHQsL-vapzppuaOWu4EGbqLh_pFjXQ&oe=626E3686");
+}
+
+.two {
+	background-image: url("https://scontent.fisb16-1.fna.fbcdn.net/v/t1.6435-9/178362236_191317009496525_2183014520146702174_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=sI9jqpbgahIAX9Tf7sS&_nc_ht=scontent.fisb16-1.fna&oh=00_AT9SH5tZd4DJDXG9LfQ67CVO2iWiVEP0-Y3DRlMkXVWBwA&oe=628D18B5");
+}
+
+.three {
+	background-image: url("https://scontent.fisb16-1.fna.fbcdn.net/v/t39.30808-6/273973206_691618938684463_4423391171470316956_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Yqp4wDQI4VEAX8rVCHy&_nc_ht=scontent.fisb16-1.fna&oh=00_AT-OcIC6wTRHsHLLV4CofT7KLjDiBYRUKU9JWdmca3EFaQ&oe=626D5CF9");
+}
+
+.four {
+	background-image: url("https://scontent.fisb16-1.fna.fbcdn.net/v/t39.30808-6/273775309_1192871381118758_6688605366060539498_n.jpg?stp=dst-jpg_p526x296&_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=lS5CG0rcchUAX-3iSEu&_nc_oc=AQnt7EzS8xZS3gLUzXa2w7C9OdpXo6ykZ8KaAkzBEDiXD44B-x2PK1r8xHwoxLxtULo&_nc_ht=scontent.fisb16-1.fna&oh=00_AT_s14n7I9Gekgx6P_L2q52cJ2zb9xLMYo1Ch8MLWLwMwg&oe=626EBF41");
+}
+
+.five {
+	background-image: url("https://scontent.fisb16-1.fna.fbcdn.net/v/t1.6435-9/186022852_1081495202377039_5884122303599084574_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=bYdSrgucnbcAX-Rc7fB&_nc_ht=scontent.fisb16-1.fna&oh=00_AT_36M_qhH36KU_AsbxapV9FcGG0FwpOswI6HmOtS_vIJQ&oe=628EF238");
+}
+
+.six {
+	background-image: url("https://scontent.fisb16-1.fna.fbcdn.net/v/t39.30808-6/278585976_391349142849238_4332009761304655330_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=WIFw4CYIEqIAX9GW46D&_nc_ht=scontent.fisb16-1.fna&oh=00_AT8zfRpcQPtLdWFLcUgY-y_fsDauJlERjidjxTJXpTbuNw&oe=626D689A");
+}
+
+.seven {
+	background-image: url("https://scontent.fisb16-1.fna.fbcdn.net/v/t39.30808-1/278757532_1058684294711307_5780542853555676561_n.jpg?stp=dst-jpg_p160x160&_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=kbg3coJeVgUAX9DaNP5&_nc_ht=scontent.fisb16-1.fna&oh=00_AT8jzdMlCtUwXqpJX_xii101xtzvX_tjb9RAykGvvBj6fg&oe=626E22FD");
+}
